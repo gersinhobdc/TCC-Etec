@@ -6,18 +6,16 @@
 	<title>Login</title>	
 </head>
 <body>
-	<form action="inserir_dados.php" method="post">
-
-				
-		Email: <input type="email" name="email"> </p>
+	<div class="container">
+	<form action="inserir_dados.php" method="post" class="form-login">	
+		<input type="email" id="login" name="email" autofocus placeholder="Login: "> </p>		
+		<input type="password" id="senha" name="password" autofocus placeholder="Senha: "> </p>
 		
-		Senha: <input type="password" name="password"> </p>
-		
-		<input type="submit" value="Login">
-
-		<a href="/mudar-senha" class="botao-mudar-senha">Esqueceu sua senha?</a>
-
-		<a href="/cadastro" class="botao-cadastro">Ainda não tem uma conta? faça o cadastro agora!</a>
+		<input type="submit" value="Login" id="btn-login" class="btn-login">
+		<a href="/mudar-senha.html" class="btn-mudar-senha" id="btn-mudar-senha">Esqueceu sua senha?</a>
+		<a href="/cadastro.php" class="btn-cadastro" id="btn-cadastro">Ainda não tem uma conta? faça o cadastro agora!</a>
+	</form>
+</div>
 
 <?php
 	$con = mysqli_connect("localhost", "root","", "etecJdAngela");
@@ -26,6 +24,7 @@
 		echo "Erro ao conectar com a base de dados: ".
 		mysqli_connect_error();
 }
+
 
 ?>
 </form>

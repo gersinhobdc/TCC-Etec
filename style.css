@@ -1,4 +1,14 @@
-.botao-mudar-senha {
+.container{
+background-color: #abcd;
+width: 600px;
+height: 600px;
+display: flex;
+margin: 0 auto;
+align-items: center;
+}
+
+
+.btn-mudar-senha {
   display: inline-block;
   padding: 10px 20px;
   background-color: #007BFF;
@@ -6,6 +16,35 @@
   text-decoration: none;
   border-radius: 5px;
 }
-.botao-mudar-senha:hover {
+.btn-mudar-senha:hover {
   background-color: #0056b3;
+}
+
+.btn-cadastro {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn-cadastro:hover {
+  background-color: #0056b3;
+}
+
+.btn-login {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn-login:hover {
+  background-color: #0056b3;
+}
+
+
+}
+
 
