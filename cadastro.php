@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Cadastro de Usuários</title>
+    <title>Cadastro</title>
 </head>
 <body>
-    <h2>Cadastro de Usuários</h2>
+    <h2>Cadastro</h2>
 
-    <form action="/login" method="post">
+    <form action="/login.php" method="post">
         <label for="nome">Nome:</label><br>
         <input type="text" id="nome" name="nome"><br>
 
@@ -16,6 +16,10 @@
         <label for="senha">Senha:</label><br>
         <input type="password" id="senha" name="senha"><br>
 
+        <label for="permission">Você é um: 
+        <input type="radio" id="permission" name="permission">Administrador
+        <input type="radio" id="permission" name="permission">Usuário
+        </label><br><br>
         <input type="submit" value="Cadastrar">
     </form>
 
