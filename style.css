@@ -1,25 +1,6 @@
-.container{
-background-color: #abcd;
-width: 600px;
-height: 600px;
-display: flex;
-margin: 0 auto;
-align-items: center;
-}
-
-
-.btn-mudar-senha {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007BFF;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-.btn-mudar-senha:hover {
-  background-color: #0056b3;
-}
-
+  
+.btn-mudar-senha,
+.btn-login,
 .btn-cadastro {
   display: inline-block;
   padding: 10px 20px;
@@ -28,23 +9,64 @@ align-items: center;
   text-decoration: none;
   border-radius: 5px;
 }
+.btn-login,
+.btn-cadastro,
+.btn-mudar-senha:hover {
+  background-color: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #98adff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-login input[type="email"],
+.form-login input[type="password"],
+.form-login input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
+}
+
+.form-login input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form-login input[type="submit"]:hover{
+    background-color: #0056b3;
+}
+
+.btn-mudar-senha,
+.btn-cadastro {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-mudar-senha:hover,
 .btn-cadastro:hover {
-  background-color: #0056b3;
+    text-decoration: underline;
 }
-
-.btn-login {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007BFF;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-.btn-login:hover {
-  background-color: #0056b3;
-}
-
-
-}
-
 
