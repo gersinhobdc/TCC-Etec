@@ -44,7 +44,7 @@ h1 {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
-    box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
+    box-sizing: border-box; 
 }
 
 .form-login input[type="submit"] {
