@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/TCC-Etec/style.css">
 	<meta charset="utf-8">
 	<title>Login</title>	
 </head>
 <body>
 	<h1>Gerenciamento de laboratórios</h1>
 	<div class="container">
-	<form action="cadastro.php" method="post" class="form-login">	
+	<form action="Cadastro\cadastro.php" method="post" class="form-login">	
 		<input type="email" id="login" name="email" autofocus placeholder="Login: "> </p>		
 		<input type="password" id="senha" name="password" autofocus placeholder="Senha: "> </p>
 		

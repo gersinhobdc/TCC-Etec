@@ -2,11 +2,12 @@
 <html>
 <head>
     <title>Cadastro</title>
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <h2>Cadastro</h2>
 
-    <form action="/login.php" method="post">
+    <form action="/Login/login.php" method="post">
         <label for="nome">Nome:</label><br>
         <input type="text" id="nome" name="nome"><br>
 
